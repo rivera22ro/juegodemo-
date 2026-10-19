@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cazador de energía</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Cazador de energía</h1>
+
+    <p>Usa las flechas del teclado para moverte.</p>
+
+    <div id="marcador">Energía: 0 / 10</div>
+    
+    
+    <div id="contenedorEnergia">
+    <div id="barraEnergia"></div>
+</div>
+
+    <div id="textoVida">Vida: 100 / 100</div>
+
+    <div id="contenedorVida">
+    <div id="barraVida"></div>
+</div>
+
+
+    <canvas id="juego" width="800" height="500"></canvas>
+
+    <p id="mensaje">¡Recoge los cristales de energía!</p>
+
+    <button id="reiniciar">Volver a jugar</button>
+
+    <script src="juego.js"></script>
+</body>
+</html>
